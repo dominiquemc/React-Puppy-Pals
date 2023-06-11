@@ -4,16 +4,27 @@ import './App.css'
 
 function App() {
   const [puppies, setPuppies] = useState(puppyList);
+  const [featPupId, setFeatPupId] = useState(null)
 
   return (
       <div className="App">
         {
           puppies.map((puppy) => { 
-            return <p key={puppy.id}>{puppy.name}</p> 
+            return <p onClick = {() => {setFeatPupId(puppy.id)}} key={puppy.id}>{puppy.name}</p> 
           })
+        }
+        {
+        featPupId && <p>{ featPupId }</p> 
         }
     </div>
   );
 }
 
+
 export default App
+
+// Notes
+
+// null is used to conditionally render an element in JSX code.
+// featPupID is a state variable: used to retain data between renders
+// setFeatPupID is the setter function: used to update the variable + trigger react to render the component again 
