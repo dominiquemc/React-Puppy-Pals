@@ -3,6 +3,7 @@ export const puppyList = [
     id: 1,
     name: "Sir Waggington",
     email: "sir-wag@email.com",
+    image: "https://cdn.stocksnap.io/img-thumbs/960w/dog-animal_J812J5W2KH.jpg",
     isCute: true,
     age: 5,
     ownerId: 1,
@@ -15,6 +16,7 @@ export const puppyList = [
     id: 2,
     name: "Fiona Penny Pickles",
     email: "pick-your-pennies@email.com",
+    image: "https://cdn.stocksnap.io/img-thumbs/960w/dog-puppy_6VARMD328Q.jpg",
     isCute: true,
     age: 6,
     ownerId: 1,
@@ -24,6 +26,8 @@ export const puppyList = [
     id: 3,
     name: "Professor Wagglesworth",
     email: "waggie@email.com",
+    image:
+      "https://cdn.stocksnap.io/img-thumbs/960w/yorkshire%20terrier-dog_D15AD808BF.jpg",
     isCute: true,
     age: 6,
     ownerId: 2,
@@ -33,6 +37,8 @@ export const puppyList = [
     id: 4,
     name: "Sergeant Barkowitz",
     email: "the-sarge@email.com",
+    image:
+      "https://cdn.stocksnap.io/img-thumbs/960w/house-chair_310XMS789X.jpg",
     isCute: true,
     age: 4,
     ownerId: 2,
@@ -42,6 +48,8 @@ export const puppyList = [
     id: 5,
     name: "Captain Sniffer",
     email: "capn-sniff@email.com",
+    image:
+      "https://cdn.stocksnap.io/img-thumbs/960w/black-puppy_TMXSQPRKZ7.jpg",
     isCute: true,
     age: 7,
     ownerId: 3,
@@ -51,6 +59,8 @@ export const puppyList = [
     id: 6,
     name: "Miss Furbulous",
     email: "miss-furby@email.com",
+    image:
+      "https://cdn.stocksnap.io/img-thumbs/960w/bulldog-puppy_A6715651B3.jpg",
     isCute: true,
     age: 1,
     ownerId: 3,
@@ -60,6 +70,8 @@ export const puppyList = [
     id: 7,
     name: "Alfred von Wigglebottom",
     email: "alfie@email.com",
+    image:
+      "https://cdn.stocksnap.io/img-thumbs/960w/animals-puppy_OOH59BAHBL.jpg",
     isCute: true,
     age: 2,
     ownerId: 3,
